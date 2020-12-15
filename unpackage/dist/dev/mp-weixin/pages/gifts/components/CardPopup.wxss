@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/**
+ * 这里是app内置的常用样式变量
+ *
+ * app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.card-popup.data-v-d6aaeeb0 {
+  padding: 40rpx;
+  background-color: #FFFFFF;
+  -webkit-border-radius: 40rpx 40rpx 0 0;
+          border-radius: 40rpx 40rpx 0 0;
+}
+.header.data-v-d6aaeeb0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.header .close-btn.data-v-d6aaeeb0 {
+  width: 48rpx;
+  height: 48rpx;
+}
+.unit-set.data-v-d6aaeeb0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 32rpx;
+  color: #343434;
+  margin-bottom: 30rpx;
+}
+.unit-set .product-img.data-v-d6aaeeb0 {
+  width: 536rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
+  -webkit-box-shadow: 0 10rpx 10rpx 0 rgba(200, 199, 204, 0.6);
+          box-shadow: 0 10rpx 10rpx 0 rgba(200, 199, 204, 0.6);
+  margin-bottom: 30rpx;
+}
+.content .row.data-v-d6aaeeb0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+          align-items: baseline;
+  margin-bottom: 20rpx;
+}
+.content .row .label.data-v-d6aaeeb0 {
+  font-size: 26rpx;
+  color: #343434;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+.content .row .desc.data-v-d6aaeeb0 {
+  font-size: 24rpx;
+  color: #999;
+}
+.content .row .desc .tips.data-v-d6aaeeb0 {
+  display: inline-block;
+  color: #DBA871;
+}
+.content .sku-list-row.data-v-d6aaeeb0 {
+  padding: 10rpx 0;
+  border-bottom: 1rpx solid #c8c7cc;
+  margin-bottom: 40rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.content .sku-list-row .sku-list-picker.data-v-d6aaeeb0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.content .sku-list-row .sku-list-picker .price.data-v-d6aaeeb0 {
+  font-family: 'neutra';
+  font-size: 48rpx;
+  color: #343434;
+  font-weight: 700 !important;
+}
+.content .sku-list-row .sku-list-picker .down-icon.data-v-d6aaeeb0 {
+  width: 30rpx;
+  height: 30rpx;
+  margin-left: 10rpx;
+}
+.submit-btn.data-v-d6aaeeb0 {
+  font-size: 32rpx;
+  width: 100%;
+  margin-top: 50rpx;
+}
+

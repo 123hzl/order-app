@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "阿喜有礼",
+  "usingComponents": {
+    "card-popup": "/pages/gifts/components/CardPopup"
+  }
+}

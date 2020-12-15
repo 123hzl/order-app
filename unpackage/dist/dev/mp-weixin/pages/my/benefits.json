@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "会员权益",
+  "usingComponents": {
+    "list-cell": "/components/list-cell/list-cell"
+  }
+}
